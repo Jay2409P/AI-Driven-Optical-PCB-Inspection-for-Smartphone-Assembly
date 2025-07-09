@@ -2,7 +2,7 @@
 #  STEP 1: Install Dependencies
 print(" Installing dependencies for Dual T4 GPU training...")
 # Ensure all necessary packages are installed
-!pip install ultralytics PyYAML opencv-python matplotlib numpy pandas seaborn tqdm tensorboard
+pip install ultralytics PyYAML opencv-python matplotlib numpy pandas seaborn tqdm tensorboard
 
 # Add a check to confirm installation of ultralytics
 try:
